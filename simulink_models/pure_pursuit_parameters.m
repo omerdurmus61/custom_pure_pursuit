@@ -1,0 +1,17 @@
+%% load driving parameters 
+load('driving_parameters.mat');
+%% define referance path 
+refPose = data.ActorSpecifications.Waypoints;
+xRef = refPose(:,1);
+yRef = refPose(:,2);
+referance_path = refPose(:,1:2);
+%% ackermann and pure pursuit parameters
+L = 3; % wheel base
+ld = 5; % lookahead distance
+X_o = refPose(1,1); % initial x position
+Y_o = refPose(1,2); % initial y position 
+psi_o = 0; % initial yaw angle
+
+%% Autoware ROS 2 message definitions
+%folderPath = fullfile(pwd);
+%ros2genmsg(folderPath)

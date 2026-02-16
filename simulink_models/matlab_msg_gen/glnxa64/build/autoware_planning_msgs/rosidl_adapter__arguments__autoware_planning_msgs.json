@@ -1,0 +1,7 @@
+{
+  "package_name": "autoware_planning_msgs",
+  "non_idl_tuples": [
+    "/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs:msg/Path.msg",
+    "/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs:msg/PathPoint.msg"
+  ]
+}

@@ -1,0 +1,203 @@
+[0.054s] Invoking command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_INSTALL_PREFIX=/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/gcc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[0.461s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.463s] -- Building for ROS 2 Jazzy
+[0.465s] -- Found ament_cmake: 2.5.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.930s] -- Found Python3: /home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.050s] -- Found ament_cmake_ros: 0.12.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[1.060s] -- Found rosidl_typesupport_c: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[1.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.151s] -- Found rosidl_typesupport_cpp: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[1.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.211s] -- Found rosidl_default_generators: 1.6.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[1.223s] -- Found rosidl_adapter: 4.8.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[1.227s] -- Found class_loader: 2.7.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[1.234s] -- Found geometry_msgs: 5.3.5 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/geometry_msgs/cmake)
+[1.321s] -- Found rclcpp: 28.1.3 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[1.424s] -- Found rmw_implementation_cmake: 7.3.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[1.427s] -- Found rmw_fastrtps_cpp: 9.0.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[1.490s] -- Found FastRTPS: /usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/include (Required is at least version "2.13") 
+[1.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.990s] -- Configuring done
+[3.038s] -- Generating done
+[3.055s] -- Build files have been written to: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs
+[3.070s] Invoked command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_INSTALL_PREFIX=/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install
+[3.073s] Invoking command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs -- -j8 -l8
+[3.382s] [1/37] Generating type hashes for ROS interfaces
+[3.806s] [2/37] Generating C++ code for ROS interfaces
+[3.869s] [3/37] Generating C code for ROS interfaces
+[3.947s] [4/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__type_support.c.o
+[3.947s] [5/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__type_support.c.o
+[3.948s] [6/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__description.c.o
+[3.951s] [7/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__description.c.o
+[4.032s] [8/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__functions.c.o
+[4.044s] [9/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__functions.c.o
+[4.080s] [10/37] Linking C shared library libautoware_planning_msgs__rosidl_generator_c.so
+[4.461s] [11/37] Generating C++ type support dispatch for ROS interfaces
+[4.710s] [12/37] Generating C type support dispatch for ROS interfaces
+[4.757s] [13/37] Generating C introspection for ROS interfaces
+[4.758s] [14/37] Generating C++ type support for eProsima Fast-RTPS
+[4.802s] [15/37] Generating C++ introspection for ROS interfaces
+[4.815s] [16/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/path__type_support.cpp.o
+[4.873s] [17/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/path_point__type_support.c.o
+[4.911s] [18/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/path__type_support.c.o
+[4.912s] [19/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/path_point__type_support.cpp.o
+[4.966s] [20/37] Linking C shared library libautoware_planning_msgs__rosidl_typesupport_introspection_c.so
+[5.031s] [21/37] Generating C type support for eProsima Fast-RTPS
+[5.071s] [22/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_c.so
+[5.466s] [23/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/path_point__type_support.cpp.o
+[5.700s] [24/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/path__type_support.cpp.o
+[5.895s] [25/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_cpp.so
+[6.179s] [26/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/path__type_support.cpp.o
+[6.212s] [27/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/path_point__type_support.cpp.o
+[6.286s] [28/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/path_point__type_support_c.cpp.o
+[6.341s] [29/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o
+[6.376s] [30/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/path_point__type_support.cpp.o
+[6.425s] [31/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/path__type_support_c.cpp.o
+[6.488s] [32/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.542s] [33/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so
+[6.654s] [34/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so
+[21.533s] [35/37] Building CXX object CMakeFiles/autoware_planning_msgs_matlab.dir/src/autoware_planning_msgs_Path_message.cpp.o
+[21.569s] [36/37] Building CXX object CMakeFiles/autoware_planning_msgs_matlab.dir/src/autoware_planning_msgs_PathPoint_message.cpp.o
+[22.623s] [37/37] Linking CXX shared library libautoware_planning_msgs_matlab.so
+[22.626s] Invoked command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs -- -j8 -l8
+[22.655s] Invoking command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs
+[22.658s] -- Install configuration: "Release"
+[22.659s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/autoware_planning_msgs
+[22.659s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.json
+[22.659s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.json
+[22.659s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.660s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.660s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.660s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__description.c
+[22.660s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.h
+[22.660s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__struct.h
+[22.661s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.c
+[22.661s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__functions.h
+[22.661s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__struct.h
+[22.661s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.c
+[22.662s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__description.c
+[22.662s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__functions.c
+[22.662s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__functions.h
+[22.662s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.h
+[22.662s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__functions.c
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path.h
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_generator_c__visibility_control.h
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path_point.h
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/library_path.sh
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/library_path.dsv
+[22.663s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_generator_c.so
+[22.663s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.664s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.664s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.664s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[22.664s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[22.664s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.664s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so
+[22.664s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.664s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.664s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.665s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.665s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[22.665s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.c
+[22.665s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.c
+[22.665s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[22.665s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_c.so
+[22.665s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_c.so
+[22.666s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.666s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.666s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.667s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__builder.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__traits.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__struct.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__builder.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__struct.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__traits.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.hpp
+[22.667s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.hpp
+[22.668s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path_point.hpp
+[22.668s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.668s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.668s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.668s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/dds_fastrtps
+[22.668s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[22.669s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[22.669s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.669s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+[22.670s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs
+[22.670s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg
+[22.670s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail
+[22.670s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.cpp
+[22.670s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[22.670s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[22.670s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.cpp
+[22.671s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so
+[22.671s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_cpp.so
+[22.671s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.idl
+[22.671s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.idl
+[22.672s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.msg
+[22.672s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.msg
+[22.672s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include
+[22.672s] -- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs
+[22.672s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/visibility_control.h
+[22.673s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs_matlab.so
+[22.687s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m/
+[22.687s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros
+[22.687s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[22.688s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[22.688s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[22.688s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs
+[22.688s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs/pathPoint.m
+[22.688s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs/path.m
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/autoware_planning_msgs
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/autoware_planning_msgs
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/ament_prefix_path.sh
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/ament_prefix_path.dsv
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/path.sh
+[22.689s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/path.dsv
+[22.690s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.bash
+[22.690s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.sh
+[22.690s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.zsh
+[22.690s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.dsv
+[22.690s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.dsv
+[22.691s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/autoware_planning_msgs
+[22.691s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cExport.cmake
+[22.691s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cExport-release.cmake
+[22.691s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[22.691s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[22.692s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport.cmake
+[22.692s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[22.692s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport.cmake
+[22.692s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport-release.cmake
+[22.692s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cppExport.cmake
+[22.693s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.693s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[22.693s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[22.693s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[22.694s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport.cmake
+[22.694s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport-release.cmake
+[22.694s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake-extras.cmake
+[22.694s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.695s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.695s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[22.695s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[22.695s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.695s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.696s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig.cmake
+[22.696s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig-version.cmake
+[22.696s] -- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.xml
+[22.700s] Invoked command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs

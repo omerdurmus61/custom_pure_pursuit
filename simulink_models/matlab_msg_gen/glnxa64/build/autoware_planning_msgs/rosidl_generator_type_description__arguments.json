@@ -1,0 +1,13 @@
+{
+  "package_name": "autoware_planning_msgs",
+  "output_dir": "/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs/rosidl_generator_type_description/autoware_planning_msgs",
+  "idl_tuples": [
+    "/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Path.idl",
+    "/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPoint.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/geometry_msgs",
+    "std_msgs:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/std_msgs",
+    "builtin_interfaces:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000533] (autoware_planning_msgs) JobQueued: {'identifier': 'autoware_planning_msgs', 'dependencies': OrderedDict()}
+[0.000583] (autoware_planning_msgs) JobStarted: {'identifier': 'autoware_planning_msgs'}
+[0.050358] (autoware_planning_msgs) JobProgress: {'identifier': 'autoware_planning_msgs', 'progress': 'cmake'}
+[0.050697] (autoware_planning_msgs) Command: {'cmd': ['/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++', '-DCMAKE_INSTALL_PREFIX=/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install'], 'cwd': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'omer'), ('LOCAL_PYTHON_VENV_PATH', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '1'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2025b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2025b/sys/os/glnxa64:/usr/local/MATLAB/R2025b/bin/glnxa64:/home/omer/.MathWorks/xdJTwxKhLpLNmhsyPIrTSJYUZLtloJyItpbCjJDyqQg/bin/glnxa64:/usr/local/MATLAB/R2025b/extern/lib/glnxa64:/usr/local/MATLAB/R2025b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2025b/runtime/glnxa64:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/server'), ('BASEMATLABPATH', ''), ('HOME', '/home/omer'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2025b'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2025b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/matlab.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1879'), ('SYSTEMD_EXEC_PID', '2149'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('MWAPIKEY', 'BdVrwrEfHyfOSdTL'), ('ROS_DISTRO', 'jazzy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omer'), ('MATLAB_MEM_MGR_VALUE', ''), ('JOURNAL_STREAM', '8:13859'), ('_', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2025b/toolbox/shared/coder/ninja/glnxa64:/home/omer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omer/.local/bin'), ('SESSION_MANAGER', 'local/omer-IdeaPad-L340-15IRH-Gaming:@/tmp/.ICE-unix/2122,unix/omer-IdeaPad-L340-15IRH-Gaming:/tmp/.ICE-unix/2122'), ('INVOCATION_ID', 'f8bb1681b0004381b51d430be48f9396'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2025b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2025b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('MW_CONNECTOR_COOKIE_SETTINGS', '[{"prefix":"ch_","suffix":"_5279"}]'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[0.099769] (-) TimerEvent: {}
+[0.145003] (autoware_planning_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199892] (-) TimerEvent: {}
+[0.236949] (autoware_planning_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.254056] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299998] (-) TimerEvent: {}
+[0.331716] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.346511] (autoware_planning_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/gcc - skipped\n'}
+[0.347025] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.347675] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.352771] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400133] (-) TimerEvent: {}
+[0.446100] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.461065] (autoware_planning_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/g++ - skipped\n'}
+[0.461593] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.462374] (autoware_planning_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.463270] (autoware_planning_msgs) StdoutLine: {'line': b'-- Building for ROS 2 Jazzy\n'}
+[0.465240] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)\n'}
+[0.500254] (-) TimerEvent: {}
+[0.600528] (-) TimerEvent: {}
+[0.700833] (-) TimerEvent: {}
+[0.801071] (-) TimerEvent: {}
+[0.901331] (-) TimerEvent: {}
+[0.930320] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found Python3: /home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001480] (-) TimerEvent: {}
+[1.050399] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)\n'}
+[1.060141] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rosidl_typesupport_c: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)\n'}
+[1.060935] (autoware_planning_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101597] (-) TimerEvent: {}
+[1.151866] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rosidl_typesupport_cpp: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)\n'}
+[1.152815] (autoware_planning_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201722] (-) TimerEvent: {}
+[1.211741] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)\n'}
+[1.223027] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)\n'}
+[1.227122] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found class_loader: 2.7.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)\n'}
+[1.234332] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/geometry_msgs/cmake)\n'}
+[1.301863] (-) TimerEvent: {}
+[1.321383] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)\n'}
+[1.402002] (-) TimerEvent: {}
+[1.423917] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)\n'}
+[1.427725] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.490669] (autoware_planning_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/include (Required is at least version "2.13") \n'}
+[1.502091] (-) TimerEvent: {}
+[1.508224] (autoware_planning_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.602223] (-) TimerEvent: {}
+[1.702554] (-) TimerEvent: {}
+[1.802854] (-) TimerEvent: {}
+[1.903173] (-) TimerEvent: {}
+[2.003434] (-) TimerEvent: {}
+[2.103714] (-) TimerEvent: {}
+[2.203973] (-) TimerEvent: {}
+[2.304250] (-) TimerEvent: {}
+[2.404581] (-) TimerEvent: {}
+[2.486758] (autoware_planning_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.504710] (-) TimerEvent: {}
+[2.605008] (-) TimerEvent: {}
+[2.705287] (-) TimerEvent: {}
+[2.805614] (-) TimerEvent: {}
+[2.905904] (-) TimerEvent: {}
+[2.975656] (autoware_planning_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.990302] (autoware_planning_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.005999] (-) TimerEvent: {}
+[3.038782] (autoware_planning_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.055597] (autoware_planning_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs\n'}
+[3.070529] (autoware_planning_msgs) CommandEnded: {'returncode': 0}
+[3.072848] (autoware_planning_msgs) JobProgress: {'identifier': 'autoware_planning_msgs', 'progress': 'build'}
+[3.072906] (autoware_planning_msgs) Command: {'cmd': ['/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake', '--build', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs', '--', '-j8', '-l8'], 'cwd': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'omer'), ('LOCAL_PYTHON_VENV_PATH', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '1'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2025b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2025b/sys/os/glnxa64:/usr/local/MATLAB/R2025b/bin/glnxa64:/home/omer/.MathWorks/xdJTwxKhLpLNmhsyPIrTSJYUZLtloJyItpbCjJDyqQg/bin/glnxa64:/usr/local/MATLAB/R2025b/extern/lib/glnxa64:/usr/local/MATLAB/R2025b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2025b/runtime/glnxa64:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/server'), ('BASEMATLABPATH', ''), ('HOME', '/home/omer'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2025b'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2025b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/matlab.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1879'), ('SYSTEMD_EXEC_PID', '2149'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('MWAPIKEY', 'BdVrwrEfHyfOSdTL'), ('ROS_DISTRO', 'jazzy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omer'), ('MATLAB_MEM_MGR_VALUE', ''), ('JOURNAL_STREAM', '8:13859'), ('_', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2025b/toolbox/shared/coder/ninja/glnxa64:/home/omer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omer/.local/bin'), ('SESSION_MANAGER', 'local/omer-IdeaPad-L340-15IRH-Gaming:@/tmp/.ICE-unix/2122,unix/omer-IdeaPad-L340-15IRH-Gaming:/tmp/.ICE-unix/2122'), ('INVOCATION_ID', 'f8bb1681b0004381b51d430be48f9396'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2025b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2025b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('MW_CONNECTOR_COOKIE_SETTINGS', '[{"prefix":"ch_","suffix":"_5279"}]'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[3.106113] (-) TimerEvent: {}
+[3.206377] (-) TimerEvent: {}
+[3.306641] (-) TimerEvent: {}
+[3.382624] (autoware_planning_msgs) StdoutLine: {'line': b'[1/37] Generating type hashes for ROS interfaces\n'}
+[3.406780] (-) TimerEvent: {}
+[3.507083] (-) TimerEvent: {}
+[3.607373] (-) TimerEvent: {}
+[3.707698] (-) TimerEvent: {}
+[3.806826] (autoware_planning_msgs) StdoutLine: {'line': b'[2/37] Generating C++ code for ROS interfaces\n'}
+[3.807811] (-) TimerEvent: {}
+[3.869326] (autoware_planning_msgs) StdoutLine: {'line': b'[3/37] Generating C code for ROS interfaces\n'}
+[3.907919] (-) TimerEvent: {}
+[3.947390] (autoware_planning_msgs) StdoutLine: {'line': b'[4/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__type_support.c.o\n'}
+[3.947822] (autoware_planning_msgs) StdoutLine: {'line': b'[5/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__type_support.c.o\n'}
+[3.948604] (autoware_planning_msgs) StdoutLine: {'line': b'[6/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__description.c.o\n'}
+[3.951932] (autoware_planning_msgs) StdoutLine: {'line': b'[7/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__description.c.o\n'}
+[4.008030] (-) TimerEvent: {}
+[4.032330] (autoware_planning_msgs) StdoutLine: {'line': b'[8/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path_point__functions.c.o\n'}
+[4.044209] (autoware_planning_msgs) StdoutLine: {'line': b'[9/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_planning_msgs/msg/detail/path__functions.c.o\n'}
+[4.080336] (autoware_planning_msgs) StdoutLine: {'line': b'[10/37] Linking C shared library libautoware_planning_msgs__rosidl_generator_c.so\n'}
+[4.109856] (-) TimerEvent: {}
+[4.210164] (-) TimerEvent: {}
+[4.310480] (-) TimerEvent: {}
+[4.410775] (-) TimerEvent: {}
+[4.461293] (autoware_planning_msgs) StdoutLine: {'line': b'[11/37] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.511855] (-) TimerEvent: {}
+[4.612196] (-) TimerEvent: {}
+[4.709971] (autoware_planning_msgs) StdoutLine: {'line': b'[12/37] Generating C type support dispatch for ROS interfaces\n'}
+[4.713849] (-) TimerEvent: {}
+[4.757095] (autoware_planning_msgs) StdoutLine: {'line': b'[13/37] Generating C introspection for ROS interfaces\n'}
+[4.758254] (autoware_planning_msgs) StdoutLine: {'line': b'[14/37] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.802557] (autoware_planning_msgs) StdoutLine: {'line': b'[15/37] Generating C++ introspection for ROS interfaces\n'}
+[4.815517] (autoware_planning_msgs) StdoutLine: {'line': b'[16/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/path__type_support.cpp.o\n'}
+[4.815862] (-) TimerEvent: {}
+[4.873784] (autoware_planning_msgs) StdoutLine: {'line': b'[17/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/path_point__type_support.c.o\n'}
+[4.911556] (autoware_planning_msgs) StdoutLine: {'line': b'[18/37] Building C object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_planning_msgs/msg/detail/path__type_support.c.o\n'}
+[4.912256] (autoware_planning_msgs) StdoutLine: {'line': b'[19/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_planning_msgs/msg/path_point__type_support.cpp.o\n'}
+[4.916900] (-) TimerEvent: {}
+[4.966800] (autoware_planning_msgs) StdoutLine: {'line': b'[20/37] Linking C shared library libautoware_planning_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.017064] (-) TimerEvent: {}
+[5.031305] (autoware_planning_msgs) StdoutLine: {'line': b'[21/37] Generating C type support for eProsima Fast-RTPS\n'}
+[5.071338] (autoware_planning_msgs) StdoutLine: {'line': b'[22/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_c.so\n'}
+[5.118958] (-) TimerEvent: {}
+[5.219332] (-) TimerEvent: {}
+[5.319680] (-) TimerEvent: {}
+[5.420063] (-) TimerEvent: {}
+[5.466732] (autoware_planning_msgs) StdoutLine: {'line': b'[23/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/path_point__type_support.cpp.o\n'}
+[5.523867] (-) TimerEvent: {}
+[5.624240] (-) TimerEvent: {}
+[5.699914] (autoware_planning_msgs) StdoutLine: {'line': b'[24/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_planning_msgs/msg/path__type_support.cpp.o\n'}
+[5.724371] (-) TimerEvent: {}
+[5.824866] (-) TimerEvent: {}
+[5.895474] (autoware_planning_msgs) StdoutLine: {'line': b'[25/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_cpp.so\n'}
+[5.924891] (-) TimerEvent: {}
+[6.025236] (-) TimerEvent: {}
+[6.125602] (-) TimerEvent: {}
+[6.179803] (autoware_planning_msgs) StdoutLine: {'line': b'[26/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/path__type_support.cpp.o\n'}
+[6.212172] (autoware_planning_msgs) StdoutLine: {'line': b'[27/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/path_point__type_support.cpp.o\n'}
+[6.225718] (-) TimerEvent: {}
+[6.286646] (autoware_planning_msgs) StdoutLine: {'line': b'[28/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/path_point__type_support_c.cpp.o\n'}
+[6.325854] (-) TimerEvent: {}
+[6.341328] (autoware_planning_msgs) StdoutLine: {'line': b'[29/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_planning_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o\n'}
+[6.376347] (autoware_planning_msgs) StdoutLine: {'line': b'[30/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_planning_msgs/msg/detail/path_point__type_support.cpp.o\n'}
+[6.424891] (autoware_planning_msgs) StdoutLine: {'line': b'[31/37] Building CXX object CMakeFiles/autoware_planning_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_planning_msgs/msg/detail/path__type_support_c.cpp.o\n'}
+[6.425943] (-) TimerEvent: {}
+[6.488142] (autoware_planning_msgs) StdoutLine: {'line': b'[32/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.526127] (-) TimerEvent: {}
+[6.542320] (autoware_planning_msgs) StdoutLine: {'line': b'[33/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.626256] (-) TimerEvent: {}
+[6.654124] (autoware_planning_msgs) StdoutLine: {'line': b'[34/37] Linking CXX shared library libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.726628] (-) TimerEvent: {}
+[6.827185] (-) TimerEvent: {}
+[6.927506] (-) TimerEvent: {}
+[7.027811] (-) TimerEvent: {}
+[7.128093] (-) TimerEvent: {}
+[7.228385] (-) TimerEvent: {}
+[7.328680] (-) TimerEvent: {}
+[7.428985] (-) TimerEvent: {}
+[7.529307] (-) TimerEvent: {}
+[7.629611] (-) TimerEvent: {}
+[7.729897] (-) TimerEvent: {}
+[7.830188] (-) TimerEvent: {}
+[7.930512] (-) TimerEvent: {}
+[8.030821] (-) TimerEvent: {}
+[8.131103] (-) TimerEvent: {}
+[8.231376] (-) TimerEvent: {}
+[8.331671] (-) TimerEvent: {}
+[8.431955] (-) TimerEvent: {}
+[8.532252] (-) TimerEvent: {}
+[8.632553] (-) TimerEvent: {}
+[8.732855] (-) TimerEvent: {}
+[8.833182] (-) TimerEvent: {}
+[8.933478] (-) TimerEvent: {}
+[9.033820] (-) TimerEvent: {}
+[9.134109] (-) TimerEvent: {}
+[9.234405] (-) TimerEvent: {}
+[9.334705] (-) TimerEvent: {}
+[9.434979] (-) TimerEvent: {}
+[9.535273] (-) TimerEvent: {}
+[9.635564] (-) TimerEvent: {}
+[9.735868] (-) TimerEvent: {}
+[9.836155] (-) TimerEvent: {}
+[9.936426] (-) TimerEvent: {}
+[10.036725] (-) TimerEvent: {}
+[10.137000] (-) TimerEvent: {}
+[10.237307] (-) TimerEvent: {}
+[10.337622] (-) TimerEvent: {}
+[10.437895] (-) TimerEvent: {}
+[10.538201] (-) TimerEvent: {}
+[10.638600] (-) TimerEvent: {}
+[10.738898] (-) TimerEvent: {}
+[10.839180] (-) TimerEvent: {}
+[10.939506] (-) TimerEvent: {}
+[11.039849] (-) TimerEvent: {}
+[11.140174] (-) TimerEvent: {}
+[11.240462] (-) TimerEvent: {}
+[11.340883] (-) TimerEvent: {}
+[11.441352] (-) TimerEvent: {}
+[11.542666] (-) TimerEvent: {}
+[11.643552] (-) TimerEvent: {}
+[11.743889] (-) TimerEvent: {}
+[11.844249] (-) TimerEvent: {}
+[11.944593] (-) TimerEvent: {}
+[12.044855] (-) TimerEvent: {}
+[12.145165] (-) TimerEvent: {}
+[12.245462] (-) TimerEvent: {}
+[12.345790] (-) TimerEvent: {}
+[12.446066] (-) TimerEvent: {}
+[12.546355] (-) TimerEvent: {}
+[12.646648] (-) TimerEvent: {}
+[12.746893] (-) TimerEvent: {}
+[12.847183] (-) TimerEvent: {}
+[12.947480] (-) TimerEvent: {}
+[13.047776] (-) TimerEvent: {}
+[13.148079] (-) TimerEvent: {}
+[13.248403] (-) TimerEvent: {}
+[13.348699] (-) TimerEvent: {}
+[13.448977] (-) TimerEvent: {}
+[13.549304] (-) TimerEvent: {}
+[13.649597] (-) TimerEvent: {}
+[13.749910] (-) TimerEvent: {}
+[13.850238] (-) TimerEvent: {}
+[13.950533] (-) TimerEvent: {}
+[14.050852] (-) TimerEvent: {}
+[14.151137] (-) TimerEvent: {}
+[14.251475] (-) TimerEvent: {}
+[14.351776] (-) TimerEvent: {}
+[14.452059] (-) TimerEvent: {}
+[14.552360] (-) TimerEvent: {}
+[14.652658] (-) TimerEvent: {}
+[14.752978] (-) TimerEvent: {}
+[14.853365] (-) TimerEvent: {}
+[14.953674] (-) TimerEvent: {}
+[15.053957] (-) TimerEvent: {}
+[15.154262] (-) TimerEvent: {}
+[15.254575] (-) TimerEvent: {}
+[15.354893] (-) TimerEvent: {}
+[15.455224] (-) TimerEvent: {}
+[15.555528] (-) TimerEvent: {}
+[15.655826] (-) TimerEvent: {}
+[15.756118] (-) TimerEvent: {}
+[15.856427] (-) TimerEvent: {}
+[15.956717] (-) TimerEvent: {}
+[16.057034] (-) TimerEvent: {}
+[16.157303] (-) TimerEvent: {}
+[16.257588] (-) TimerEvent: {}
+[16.357896] (-) TimerEvent: {}
+[16.458168] (-) TimerEvent: {}
+[16.558483] (-) TimerEvent: {}
+[16.658770] (-) TimerEvent: {}
+[16.759037] (-) TimerEvent: {}
+[16.859328] (-) TimerEvent: {}
+[16.959614] (-) TimerEvent: {}
+[17.059892] (-) TimerEvent: {}
+[17.160171] (-) TimerEvent: {}
+[17.260463] (-) TimerEvent: {}
+[17.360748] (-) TimerEvent: {}
+[17.461036] (-) TimerEvent: {}
+[17.561303] (-) TimerEvent: {}
+[17.661752] (-) TimerEvent: {}
+[17.762036] (-) TimerEvent: {}
+[17.862287] (-) TimerEvent: {}
+[17.962597] (-) TimerEvent: {}
+[18.062896] (-) TimerEvent: {}
+[18.163198] (-) TimerEvent: {}
+[18.263512] (-) TimerEvent: {}
+[18.363826] (-) TimerEvent: {}
+[18.464134] (-) TimerEvent: {}
+[18.564440] (-) TimerEvent: {}
+[18.664786] (-) TimerEvent: {}
+[18.765131] (-) TimerEvent: {}
+[18.865420] (-) TimerEvent: {}
+[18.965733] (-) TimerEvent: {}
+[19.066106] (-) TimerEvent: {}
+[19.166462] (-) TimerEvent: {}
+[19.266976] (-) TimerEvent: {}
+[19.367286] (-) TimerEvent: {}
+[19.467583] (-) TimerEvent: {}
+[19.567885] (-) TimerEvent: {}
+[19.668930] (-) TimerEvent: {}
+[19.769401] (-) TimerEvent: {}
+[19.869655] (-) TimerEvent: {}
+[19.969931] (-) TimerEvent: {}
+[20.070216] (-) TimerEvent: {}
+[20.170573] (-) TimerEvent: {}
+[20.271061] (-) TimerEvent: {}
+[20.371345] (-) TimerEvent: {}
+[20.471613] (-) TimerEvent: {}
+[20.571940] (-) TimerEvent: {}
+[20.672310] (-) TimerEvent: {}
+[20.772617] (-) TimerEvent: {}
+[20.872921] (-) TimerEvent: {}
+[20.973217] (-) TimerEvent: {}
+[21.073511] (-) TimerEvent: {}
+[21.173936] (-) TimerEvent: {}
+[21.274613] (-) TimerEvent: {}
+[21.374920] (-) TimerEvent: {}
+[21.475256] (-) TimerEvent: {}
+[21.533731] (autoware_planning_msgs) StdoutLine: {'line': b'[35/37] Building CXX object CMakeFiles/autoware_planning_msgs_matlab.dir/src/autoware_planning_msgs_Path_message.cpp.o\n'}
+[21.569530] (autoware_planning_msgs) StdoutLine: {'line': b'[36/37] Building CXX object CMakeFiles/autoware_planning_msgs_matlab.dir/src/autoware_planning_msgs_PathPoint_message.cpp.o\n'}
+[21.575310] (-) TimerEvent: {}
+[21.675586] (-) TimerEvent: {}
+[21.775895] (-) TimerEvent: {}
+[21.876231] (-) TimerEvent: {}
+[21.976543] (-) TimerEvent: {}
+[22.076851] (-) TimerEvent: {}
+[22.177163] (-) TimerEvent: {}
+[22.277462] (-) TimerEvent: {}
+[22.377754] (-) TimerEvent: {}
+[22.478067] (-) TimerEvent: {}
+[22.578371] (-) TimerEvent: {}
+[22.623838] (autoware_planning_msgs) StdoutLine: {'line': b'[37/37] Linking CXX shared library libautoware_planning_msgs_matlab.so\n'}
+[22.625896] (autoware_planning_msgs) CommandEnded: {'returncode': 0}
+[22.650449] (autoware_planning_msgs) JobProgress: {'identifier': 'autoware_planning_msgs', 'progress': 'install'}
+[22.655305] (autoware_planning_msgs) Command: {'cmd': ['/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake', '--install', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs'], 'cwd': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'omer'), ('LOCAL_PYTHON_VENV_PATH', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '1'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2025b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2025b/sys/os/glnxa64:/usr/local/MATLAB/R2025b/bin/glnxa64:/home/omer/.MathWorks/xdJTwxKhLpLNmhsyPIrTSJYUZLtloJyItpbCjJDyqQg/bin/glnxa64:/usr/local/MATLAB/R2025b/extern/lib/glnxa64:/usr/local/MATLAB/R2025b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2025b/runtime/glnxa64:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/server'), ('BASEMATLABPATH', ''), ('HOME', '/home/omer'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2025b'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2025b/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/matlab.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1879'), ('SYSTEMD_EXEC_PID', '2149'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('COLCON_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('MWAPIKEY', 'BdVrwrEfHyfOSdTL'), ('ROS_DISTRO', 'jazzy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omer'), ('MATLAB_MEM_MGR_VALUE', ''), ('JOURNAL_STREAM', '8:13859'), ('_', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2025b/toolbox/shared/coder/ninja/glnxa64:/home/omer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omer/.local/bin'), ('SESSION_MANAGER', 'local/omer-IdeaPad-L340-15IRH-Gaming:@/tmp/.ICE-unix/2122,unix/omer-IdeaPad-L340-15IRH-Gaming:/tmp/.ICE-unix/2122'), ('INVOCATION_ID', 'f8bb1681b0004381b51d430be48f9396'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2025b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2025b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/omer/.matlab/R2025b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/omer/.matlab/R2025b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('MW_CONNECTOR_COOKIE_SETTINGS', '[{"prefix":"ch_","suffix":"_5279"}]'), ('CMAKE_PREFIX_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[22.658787] (autoware_planning_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.659137] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/autoware_planning_msgs\n'}
+[22.659474] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.json\n'}
+[22.659656] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.json\n'}
+[22.659836] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.660072] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.660287] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.660479] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__description.c\n'}
+[22.660641] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.h\n'}
+[22.660874] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__struct.h\n'}
+[22.661103] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.c\n'}
+[22.661332] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__functions.h\n'}
+[22.661592] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__struct.h\n'}
+[22.661774] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.c\n'}
+[22.662029] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__description.c\n'}
+[22.662186] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__functions.c\n'}
+[22.662337] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__functions.h\n'}
+[22.662490] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.h\n'}
+[22.662643] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__functions.c\n'}
+[22.662930] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path.h\n'}
+[22.663141] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.663293] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path_point.h\n'}
+[22.663444] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/library_path.sh\n'}
+[22.663598] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/library_path.dsv\n'}
+[22.663873] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_generator_c.so\n'}
+[22.663997] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.664081] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.664168] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.664256] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h\n'}
+[22.664344] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h\n'}
+[22.664435] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.664626] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[22.664715] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.664825] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.664993] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.665116] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.665204] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h\n'}
+[22.665292] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.c\n'}
+[22.665382] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.c\n'}
+[22.665477] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_c.h\n'}
+[22.665603] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_c.so\n'}
+[22.665733] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_c.so\n'}
+[22.666145] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.666464] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.666665] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path.hpp\n'}
+[22.666968] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.667136] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.667223] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__builder.hpp\n'}
+[22.667307] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__traits.hpp\n'}
+[22.667394] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__struct.hpp\n'}
+[22.667480] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__builder.hpp\n'}
+[22.667574] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__struct.hpp\n'}
+[22.667704] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__traits.hpp\n'}
+[22.667845] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.hpp\n'}
+[22.667980] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.hpp\n'}
+[22.668098] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/path_point.hpp\n'}
+[22.668306] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.668413] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.668532] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.668654] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/dds_fastrtps\n'}
+[22.668852] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.669086] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.669316] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.669542] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.670011] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs\n'}
+[22.670165] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg\n'}
+[22.670324] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail\n'}
+[22.670432] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__type_support.cpp\n'}
+[22.670566] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.670762] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.670954] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/autoware_planning_msgs/msg/detail/path_point__type_support.cpp\n'}
+[22.671126] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[22.671399] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs__rosidl_typesupport_cpp.so\n'}
+[22.671690] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.idl\n'}
+[22.671947] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.idl\n'}
+[22.672152] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/Path.msg\n'}
+[22.672361] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/msg/PathPoint.msg\n'}
+[22.672552] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include\n'}
+[22.672752] (autoware_planning_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs\n'}
+[22.672949] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/include/autoware_planning_msgs/visibility_control.h\n'}
+[22.673091] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/libautoware_planning_msgs_matlab.so\n'}
+[22.678490] (-) TimerEvent: {}
+[22.687109] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m/\n'}
+[22.687449] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros\n'}
+[22.687668] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal\n'}
+[22.688010] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2\n'}
+[22.688221] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages\n'}
+[22.688381] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs\n'}
+[22.688559] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs/pathPoint.m\n'}
+[22.688774] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+autoware_planning_msgs/path.m\n'}
+[22.689020] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/autoware_planning_msgs\n'}
+[22.689213] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/autoware_planning_msgs\n'}
+[22.689363] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/ament_prefix_path.sh\n'}
+[22.689587] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/ament_prefix_path.dsv\n'}
+[22.689739] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/path.sh\n'}
+[22.689963] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/environment/path.dsv\n'}
+[22.690111] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.bash\n'}
+[22.690317] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.sh\n'}
+[22.690500] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.zsh\n'}
+[22.690688] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/local_setup.dsv\n'}
+[22.690877] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.dsv\n'}
+[22.691055] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/autoware_planning_msgs\n'}
+[22.691230] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cExport.cmake\n'}
+[22.691426] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cExport-release.cmake\n'}
+[22.691674] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.691891] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[22.692136] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.692334] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[22.692551] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport.cmake\n'}
+[22.692752] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[22.692970] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_generator_cppExport.cmake\n'}
+[22.693217] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.693429] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/export_autoware_planning_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[22.693663] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.693889] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[22.694150] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[22.694368] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[22.694577] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[22.694774] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.694996] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.695195] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.695411] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.695609] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.695822] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.696036] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig.cmake\n'}
+[22.696244] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/cmake/autoware_planning_msgsConfig-version.cmake\n'}
+[22.696447] (autoware_planning_msgs) StdoutLine: {'line': b'-- Installing: /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.xml\n'}
+[22.700531] (autoware_planning_msgs) CommandEnded: {'returncode': 0}
+[22.783734] (-) TimerEvent: {}
+[22.834141] (autoware_planning_msgs) JobEnded: {'identifier': 'autoware_planning_msgs', 'rc': 0}
+[22.835123] (-) EventReactorShutdown: {}

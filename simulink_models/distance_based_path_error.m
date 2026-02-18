@@ -73,3 +73,4 @@ for i = 1:length(tracked_path)
 end
 
 path_tracking_error = sum(total_distance_error(:));
+disp(path_tracking_error);

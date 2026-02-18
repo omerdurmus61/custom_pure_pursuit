@@ -1,7 +1,7 @@
 raw_referance_path = data.ActorSpecifications.Waypoints;
 referance_path = raw_referance_path(:,1:2);
 
-tracked_path = out.tracked_path;
+%%tracked_path = out.tracked_path;
 distance_sp  = [];
 error_indv_point = [];
 total_distance_error = [];
@@ -22,7 +22,7 @@ for i = 1:length(tracked_path)
         distance_sp = [];
      
         if(starting_index<=kernel_size)
-            for offset = 1:starting_point + kernel_size
+            for offset = 1:(starting_index + kernel_size)
                 A = referance_path(offset,:);
                 B = referance_path(offset+1,:);
                 X = tracked_path(i,:);
@@ -36,8 +36,8 @@ for i = 1:length(tracked_path)
                 e = norm(X - T);
                 error_indv_point(end+1) = e;                              
             end        
-        elseif(length(referance_path) - starting_index < kernel_size)
-            for offset = starting_point - kernel_size:length(referance_path)-1
+        elseif(length(referance_path) - starting_index <= kernel_size)
+            for offset = (starting_index - kernel_size):(length(referance_path)-1)
                 A = referance_path(offset,:);
                 B = referance_path(offset+1,:);
                 X = tracked_path(i,:);
@@ -68,6 +68,9 @@ for i = 1:length(tracked_path)
             end
         end
 
-        total_distance_error(end+1) = max(error_indv_point);
+        total_distance_error(end+1) = min(error_indv_point);
         error_indv_point = [];
 end
+
+path_tracking_error = sum(total_distance_error(:));
+disp(path_tracking_error);

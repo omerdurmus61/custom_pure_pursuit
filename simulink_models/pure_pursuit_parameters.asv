@@ -7,16 +7,7 @@ yRef = refPose(:,2);
 referance_path = refPose(:,1:2);
 %% ackermann and pure pursuit parameters
 L = 3; % wheel base
-
-ld = 5; % lookahead distance
-min_ld = 3;
-max_ld = 10;
-max_steer_cmd = 0.6;
-min_steer_cmd = 0.0;
-
-min_vel = 5;
-max_vel = 10;
-
+ld = ; % lookahead distance
 X_o = refPose(1,1); % initial x position
 Y_o = refPose(1,2); % initial y position 
 psi_o = 0; % initial yaw angle

@@ -22,5 +22,5 @@ Y_o = refPose(1,2); % initial y position
 psi_o = 0; % initial yaw angle
 
 %% Autoware ROS 2 message definitions
-%folderPath = fullfile(pwd);
-%ros2genmsg(folderPath)
+%%folderPath = fullfile(pwd);
+%%ros2genmsg(folderPath)

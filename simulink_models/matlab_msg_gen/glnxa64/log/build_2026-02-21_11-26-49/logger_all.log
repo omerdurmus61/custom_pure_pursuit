@@ -1,0 +1,145 @@
+[0.443s] DEBUG:colcon:Command line arguments: ['/home/omer/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon', 'build', '--merge-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++']
+[0.443s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7375d82e46a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7375d83dbe50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7375d83dbe50>>)
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_planning_msgs) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autoware_planning_msgs' with type 'ros.ament_cmake' and name 'autoware_planning_msgs'
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++']'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_planning_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install', 'merge_install': True, 'path': '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.593s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.610s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/src/autoware_planning_msgs'
+[0.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs -- -j8 -l8
+[2.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs -- -j8 -l8
+[2.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs
+[2.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_planning_msgs)
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install' for CMake module files
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/build/autoware_planning_msgs
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install' for CMake config files
+[2.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'cmake_prefix_path')
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.ps1'
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.dsv'
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.sh'
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib'
+[2.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'ld_library_path_lib')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.sh'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/bin'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/pkgconfig/autoware_planning_msgs.pc'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/bin'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.ps1'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.dsv'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.bash'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.zsh'
+[2.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/autoware_planning_msgs)
+[2.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_planning_msgs)
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install' for CMake module files
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install' for CMake config files
+[2.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'cmake_prefix_path')
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/cmake_prefix_path.sh'
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib'
+[2.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'ld_library_path_lib')
+[2.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.ps1'
+[2.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.dsv'
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/hook/ld_library_path_lib.sh'
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/bin'
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/pkgconfig/autoware_planning_msgs.pc'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/bin'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.dsv'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.sh'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.bash'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/autoware_planning_msgs/package.zsh'
+[2.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/autoware_planning_msgs)
+[2.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.321s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[2.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.330s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[2.357s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/local_setup.ps1'
+[2.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/_local_setup_util_ps1.py'
+[2.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/setup.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/local_setup.sh'
+[2.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/_local_setup_util_sh.py'
+[2.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/setup.sh'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/local_setup.bash'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/setup.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/local_setup.zsh'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omer/custom_pure_pursuit/simulink_models/matlab_msg_gen/glnxa64/install/setup.zsh'

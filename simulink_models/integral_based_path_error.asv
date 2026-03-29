@@ -1,0 +1,80 @@
+
+%% LOAD PATHS
+raw_reference_path = data.ActorSpecifications.Waypoints;
+reference_path = raw_reference_path(:, 1:2);
+
+tracked_path = out.tracked_path(:, 1:2);
+
+%% OPTIONAL: REMOVE CONSECUTIVE DUPLICATE POINTS
+% This prevents issues in interp1 when arc length contains repeated values.
+reference_path = removeDuplicatePoints(reference_path);
+tracked_path   = removeDuplicatePoints(tracked_path);
+
+%% COMPUTE CUMULATIVE ARC LENGTH
+s_ref = computeCumulativeArcLength(reference_path);
+s_trk = computeCumulativeArcLength(tracked_path);
+
+%% RESAMPLE BOTH PATHS ON A COMMON NORMALIZED ARC-LENGTH AXIS
+% Increase N for higher accuracy.
+N = 1000;
+
+s_ref_normalized = s_ref / s_ref(end);
+s_trk_normalized = s_trk / s_trk(end);
+
+s_common = linspace(0, 1, N);
+
+ref_x_resampled = interp1(s_ref_normalized, reference_path(:,1), s_common, 'linear');
+ref_y_resampled = interp1(s_ref_normalized, reference_path(:,2), s_common, 'linear');
+
+trk_x_resampled = interp1(s_trk_normalized, tracked_path(:,1), s_common, 'linear');
+trk_y_resampled = interp1(s_trk_normalized, tracked_path(:,2), s_common, 'linear');
+
+reference_resampled = [ref_x_resampled(:), ref_y_resampled(:)];
+tracked_resampled   = [trk_x_resampled(:), trk_y_resampled(:)];
+
+%% BUILD CLOSED POLYGON BETWEEN THE TWO PATHS
+% Reference path goes forward, tracked path goes backward.
+polygon_x = [reference_resampled(:,1); flipud(tracked_resampled(:,1))];
+polygon_y = [reference_resampled(:,2); flipud(tracked_resampled(:,2))];
+
+%% COMPUTE AREA ERROR
+path_area_error = polyarea(polygon_x, polygon_y);
+
+disp(['Path area error = ', num2str(path_area_error), ' m^2']);
+
+%% VISUALIZATION
+figure;
+hold on;
+grid on;
+axis equal;
+
+plot(reference_path(:,1), reference_path(:,2), 'b-', 'LineWidth', 2);
+plot(tracked_path(:,1), tracked_path(:,2), 'r-', 'LineWidth', 2);
+
+fill(polygon_x, polygon_y, [1 0.8 0.2], ...
+    'FaceAlpha', 0.35, 'EdgeColor', 'none');
+
+legend('Reference Path', 'Tracked Path', 'Area Between Paths');
+title(['Path Area Error = ', num2str(path_area_error), ' m^2']);
+xlabel('X [m]');
+ylabel('Y [m]');
+
+%% ---------------- LOCAL FUNCTIONS ----------------
+
+function arc_length = computeCumulativeArcLength(path)
+    dx = diff(path(:,1));
+    dy = diff(path(:,2));
+    segment_lengths = sqrt(dx.^2 + dy.^2);
+    arc_length = [0; cumsum(segment_lengths)];
+end
+
+function filtered_path = removeDuplicatePoints(path)
+    if isempty(path)
+        filtered_path = path;
+        return;
+    end
+
+    point_differences = diff(path, 1, 1);
+    keep_indices = [true; any(abs(point_differences) > 1e-12, 2)];
+    filtered_path = path(keep_indices, :);
+end

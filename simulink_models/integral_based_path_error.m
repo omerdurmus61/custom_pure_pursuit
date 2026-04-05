@@ -1,4 +1,3 @@
-
 %% INPUTS
 raw_reference_path = data.ActorSpecifications.Waypoints;
 reference_path = raw_reference_path(:,1:2);
@@ -109,7 +108,7 @@ for i = 1:size(tracked_path,1)-1
     
     patch(quad_x, quad_y, [0 0.45 1], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 % pp (yellow)
@@ -119,7 +118,7 @@ for i = 1:size(tracked_path2,1)-1
     quad_y = [tracked_path2(i,2), tracked_path2(i+1,2), ...
               proj2(i+1,2), proj2(i,2)];
     
-    patch(quad_x, quad_y, [1 0.8 0], ...
+    patch(quad_x, quad_y, [1 0 0], ...
           'EdgeColor', 'none', ...
           'FaceAlpha', 0.4);
 end
@@ -143,7 +142,7 @@ for i = 1:size(tracked_path,1)-1
     
     patch(quad_x, quad_y, [0 0.45 1], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 legend('regulated pp');
@@ -163,9 +162,9 @@ for i = 1:size(tracked_path2,1)-1
     quad_y = [tracked_path2(i,2), tracked_path2(i+1,2), ...
               proj2(i+1,2), proj2(i,2)];
     
-    patch(quad_x, quad_y, [1 0.8 0], ...
+    patch(quad_x, quad_y, [1 0 0], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 legend('pp');
@@ -190,7 +189,7 @@ for i = 1:size(tracked_path,1)-1
     
     patch(quad_x, quad_y, [0 0.45 1], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 for i = 1:size(tracked_path2,1)-1
@@ -199,9 +198,9 @@ for i = 1:size(tracked_path2,1)-1
     quad_y = [tracked_path2(i,2), tracked_path2(i+1,2), ...
               proj2(i+1,2), proj2(i,2)];
     
-    patch(quad_x, quad_y, [1 0.8 0], ...
+    patch(quad_x, quad_y, [1 0 0], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 legend('regulated pp', 'pp');
@@ -223,7 +222,7 @@ for i = 1:size(tracked_path,1)-1
     
     patch(quad_x, quad_y, [0 0.45 1], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 legend('regulated pp');
@@ -245,7 +244,7 @@ for i = 1:size(tracked_path2,1)-1
     
     patch(quad_x, quad_y, [1 0.8 0], ...
           'EdgeColor', 'none', ...
-          'FaceAlpha', 0.4);
+          'FaceAlpha', 1);
 end
 
 legend('pp');

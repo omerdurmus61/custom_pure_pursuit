@@ -188,6 +188,8 @@ In this study, a look-ahead distance and velocity reference regulation method wa
 
 ## References
 
-[1] R. C. Coulter, “Implementation of the Pure Pursuit Path Tracking Algorithm,” 1992.  
-[2] M. W. Park et al., ICCAS, 2014.  
-[3] S. Macenski et al., Autonomous Robots, 2023.  
+[1] R. C. Coulter, “Implementation of the Pure Pursuit Path Tracking Algorithm,” Jan. 01, 1992.  
+
+[2] M. W. Park, S. W. Lee, and W. Y. Han, “Development of lateral control system for autonomous vehicle based on adaptive pure pursuit algorithm,” ICCAS, 2014.  
+
+[3] S. Macenski, S. Singh, F. Martín, and J. Ginés, “Regulated pure pursuit for robot path tracking,” Autonomous Robots, 2023.  

@@ -1,7 +1,10 @@
 raw_referance_path = data.ActorSpecifications.Waypoints;
 referance_path = raw_referance_path(:,1:2);
 
-tracked_path = out.tracked_path;
+%tracked_path = out.tracked_path;
+tracked_path = tracked_path_pp;
+%tracked_path = out.tracked_path_nn;;
+
 distance_sp  = [];
 error_indv_point = [];
 total_distance_error = [];

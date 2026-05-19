@@ -8,7 +8,7 @@ referance_path = refPose(:,1:2);
 %% ackermann and pure pursuit parameters
 L = 3; % wheel base
 
-ld = 5; % lookahead distance
+ld = 3; % lookahead distance
 min_ld = 3;
 max_ld = 10;
 max_steer_cmd = 0.5;
